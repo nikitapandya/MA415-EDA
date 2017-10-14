@@ -1,7 +1,7 @@
-library(ggplot2)
-library(ggmap)
-library(maps)
-library(mapdata)
+require(ggplot2)
+require(ggmap)
+require(maps)
+require(mapdata)
 
 states <- map_data("state")
 

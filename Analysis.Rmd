@@ -5,15 +5,15 @@ output: pdf_document
 
 ```{r setup, include=FALSE, warning=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(maps)
-library(tidyverse)
-library(readxl)
-library(plotly)
-library(ggplot2)
-library(reshape2)
-library(dplyr)
-library(ggmap)
-library(mapdata)
+require(maps)
+require(tidyverse)
+require(readxl)
+require(plotly)
+require(ggplot2)
+require(reshape2)
+require(dplyr)
+require(ggmap)
+require(mapdata)
 ```
 
 ```{r echo=FALSE, results='hide',message=FALSE}
